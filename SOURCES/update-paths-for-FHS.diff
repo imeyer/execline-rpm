@@ -1,0 +1,24 @@
+diff -ur execline-1.3.1.1/conf-compile/import execline-1.3.1.1.mine/conf-compile/import
+--- execline-1.3.1.1/conf-compile/import	2014-05-14 15:20:16.000000000 -0400
++++ execline-1.3.1.1.mine/conf-compile/import	2014-07-25 20:05:27.782925833 -0400
+@@ -1 +1 @@
+-$SP_ROOT/package/prog/skalibs/sysdeps
++$SP_ROOT/usr/lib/skalibs/sysdeps
+diff -ur execline-1.3.1.1/conf-compile/path-include execline-1.3.1.1.mine/conf-compile/path-include
+--- execline-1.3.1.1/conf-compile/path-include	2014-05-14 15:20:16.000000000 -0400
++++ execline-1.3.1.1.mine/conf-compile/path-include	2014-07-25 20:05:39.903926367 -0400
+@@ -1 +1 @@
+-$SP_ROOT/package/prog/skalibs/include
++$SP_ROOT/usr/include/skalibs
+diff -ur execline-1.3.1.1/conf-compile/path-library execline-1.3.1.1.mine/conf-compile/path-library
+--- execline-1.3.1.1/conf-compile/path-library	2014-05-14 15:20:16.000000000 -0400
++++ execline-1.3.1.1.mine/conf-compile/path-library	2014-07-25 20:05:53.183926951 -0400
+@@ -1 +1 @@
+-$SP_ROOT/package/prog/skalibs/library
++$SP_ROOT/usr/lib/skalibs
+diff -ur execline-1.3.1.1/conf-compile/path-library.so execline-1.3.1.1.mine/conf-compile/path-library.so
+--- execline-1.3.1.1/conf-compile/path-library.so	2014-05-14 15:20:16.000000000 -0400
++++ execline-1.3.1.1.mine/conf-compile/path-library.so	2014-07-25 20:06:02.320927354 -0400
+@@ -1 +1 @@
+-$SP_ROOT/package/prog/skalibs/library.so
++$SP_ROOT/lib
